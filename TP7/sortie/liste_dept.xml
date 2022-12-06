@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<liste>
+	<region nom="Bretagne">
+		<dept numero="22">
+		<nomDept>Côtes-d'Armor</nomDept>
+		<preferecture>Saint-Brieuc</preferecture>
+		<population>600582</population>
+		<superficie>6877.6</superficie>
+		</dept>
+		<dept numero="29">
+		<nomDept>Finistère</nomDept>
+		<preferecture>Quimper</preferecture>
+		<population>915090</population>
+		<superficie>6733.0</superficie>
+		</dept>
+		<dept numero="35">
+		<nomDept>Ille-et-Vilaine</nomDept>
+		<preferecture>Rennes</preferecture>
+		<population>1079498</population>
+		<superficie>6774.7</superficie>
+		</dept>
+		<dept numero="56">
+		<nomDept>Morbihan</nomDept>
+		<preferecture>Vannes</preferecture>
+		<population>759684</population>
+		<superficie>6822.6</superficie>
+		</dept>
+	</region>
+	<region nom="Hauts-de-France">
+		<dept numero="2">
+		<nomDept>Aisne</nomDept>
+		<preferecture>Laon</preferecture>
+		<population>531345</population>
+		<superficie>7361.7</superficie>
+		</dept>
+		<dept numero="59">
+		<nomDept>Nord</nomDept>
+		<preferecture>Lille</preferecture>
+		<population>2608346</population>
+		<superficie>5742.8</superficie>
+		</dept>
+		<dept numero="60">
+		<nomDept>Oise</nomDept>
+		<preferecture>Beauvais</preferecture>
+		<population>829419</population>
+		<superficie>5860.2</superficie>
+		</dept>
+		<dept numero="62">
+		<nomDept>Pas-de-Calais</nomDept>
+		<preferecture>Arras</preferecture>
+		<population>1465278</population>
+		<superficie>6671.4</superficie>
+		</dept>
+		<dept numero="80">
+		<nomDept>Somme</nomDept>
+		<preferecture>Amiens</preferecture>
+		<population>570559</population>
+		<superficie>6170.1</superficie>
+		</dept>
+	</region>
+	<region nom="Centre-Val de Loire">
+		<dept numero="18">
+		<nomDept>Cher</nomDept>
+		<preferecture>Bourges</preferecture>
+		<population>302306</population>
+		<superficie>7235.0</superficie>
+		</dept>
+		<dept numero="28">
+		<nomDept>Eure-et-Loir</nomDept>
+		<preferecture>Chartres</preferecture>
+		<population>431575</population>
+		<superficie>5880.0</superficie>
+		</dept>
+		<dept numero="36">
+		<nomDept>Indre</nomDept>
+		<preferecture>Châteauroux</preferecture>
+		<population>219316</population>
+		<superficie>6790.6</superficie>
+		</dept>
+		<dept numero="37">
+		<nomDept>Indre-et-Loire</nomDept>
+		<preferecture>Tours</preferecture>
+		<population>610079</population>
+		<superficie>6126.7</superficie>
+		</dept>
+		<dept numero="41">
+		<nomDept>Loir-et-Cher</nomDept>
+		<preferecture>Blois</preferecture>
+		<population>329470</population>
+		<superficie>6343.4</superficie>
+		</dept>
+		<dept numero="45">
+		<nomDept>Loiret</nomDept>
+		<preferecture>Orléans</preferecture>
+		<population>680434</population>
+		<superficie>6775.2</superficie>
+		</dept>
+	</region>
+	<region nom="Pays de la Loire">
+		<dept numero="44">
+		<nomDept>Loire-Atlantique</nomDept>
+		<preferecture>Nantes</preferecture>
+		<population>1429272</population>
+		<superficie>6874.4</superficie>
+		</dept>
+		<dept numero="49">
+		<nomDept>Maine-et-Loire</nomDept>
+		<preferecture>Angers</preferecture>
+		<population>818273</population>
+		<superficie>7106.6</superficie>
+		</dept>
+		<dept numero="53">
+		<nomDept>Mayenne</nomDept>
+		<preferecture>Laval</preferecture>
+		<population>307062</population>
+		<superficie>5175.2</superficie>
+		</dept>
+		<dept numero="72">
+		<nomDept>Sarthe</nomDept>
+		<preferecture>Le Mans</preferecture>
+		<population>566412</population>
+		<superficie>6206.0</superficie>
+		</dept>
+		<dept numero="85">
+		<nomDept>Vendée</nomDept>
+		<preferecture>La Roche-sur-Yon</preferecture>
+		<population>685442</population>
+		<superficie>6719.6</superficie>
+		</dept>
+	</region>
+	<region nom="Provence-Alpes-Côte d'Azur">
+		<dept numero="4">
+		<nomDept>Alpes-de-Haute-Provence</nomDept>
+		<preferecture>Digne-les-Bains</preferecture>
+		<population>164308</population>
+		<superficie>6925.2</superficie>
+		</dept>
+		<dept numero="5">
+		<nomDept>Hautes-Alpes</nomDept>
+		<preferecture>Gap</preferecture>
+		<population>141220</population>
+		<superficie>5548.7</superficie>
+		</dept>
+		<dept numero="6">
+		<nomDept>Alpes-Maritimes</nomDept>
+		<preferecture>Nice</preferecture>
+		<population>1094283</population>
+		<superficie>4298.6</superficie>
+		</dept>
+		<dept numero="13">
+		<nomDept>Bouches-du-Rhône</nomDept>
+		<preferecture>Marseille</preferecture>
+		<population>2043110</population>
+		<superficie>5087.5</superficie>
+		</dept>
+		<dept numero="83">
+		<nomDept>Var</nomDept>
+		<preferecture>Toulon</preferecture>
+		<population>1076711</population>
+		<superficie>5972.5</superficie>
+		</dept>
+		<dept numero="84">
+		<nomDept>Vaucluse</nomDept>
+		<preferecture>Avignon</preferecture>
+		<population>561469</population>
+		<superficie>3567.3</superficie>
+		</dept>
+	</region>
+	<region nom="Grand Est">
+		<dept numero="8">
+		<nomDept>Ardennes</nomDept>
+		<preferecture>Charleville-Mézières</preferecture>
+		<population>270582</population>
+		<superficie>5229.4</superficie>
+		</dept>
+		<dept numero="10">
+		<nomDept>Aube</nomDept>
+		<preferecture>Troyes</preferecture>
+		<population>310242</population>
+		<superficie>6004.2</superficie>
+		</dept>
+		<dept numero="51">
+		<nomDept>Marne</nomDept>
+		<preferecture>Châlons-en-Champagne</preferecture>
+		<population>566855</population>
+		<superficie>8169.1</superficie>
+		</dept>
+		<dept numero="52">
+		<nomDept>Haute-Marne</nomDept>
+		<preferecture>Chaumont</preferecture>
+		<population>172512</population>
+		<superficie>6210.6</superficie>
+		</dept>
+		<dept numero="54">
+		<nomDept>Meurthe-et-Moselle</nomDept>
+		<preferecture>Nancy</preferecture>
+		<population>733760</population>
+		<superficie>5245.9</superficie>
+		</dept>
+		<dept numero="55">
+		<nomDept>Meuse</nomDept>
+		<preferecture>Bar-le-Duc</preferecture>
+		<population>184083</population>
+		<superficie>6211.4</superficie>
+		</dept>
+		<dept numero="57">
+		<nomDept>Moselle</nomDept>
+		<preferecture>Metz</preferecture>
+		<population>1046543</population>
+		<superficie>6216.3</superficie>
+		</dept>
+		<dept numero="67">
+		<nomDept>Bas-Rhin</nomDept>
+		<preferecture>Strasbourg</preferecture>
+		<population>1140057</population>
+		<superficie>4755.0</superficie>
+		</dept>
+		<dept numero="68">
+		<nomDept>Haut-Rhin</nomDept>
+		<preferecture>Colmar</preferecture>
+		<population>767086</population>
+		<superficie>3525.2</superficie>
+		</dept>
+		<dept numero="88">
+		<nomDept>Vosges</nomDept>
+		<preferecture>Epinal</preferecture>
+		<population>364499</population>
+		<superficie>5873.8</superficie>
+		</dept>
+	</region>
+	<region nom="Bourgogne-Franche-Comté">
+		<dept numero="21">
+		<nomDept>Côte-d'Or</nomDept>
+		<preferecture>Dijon</preferecture>
+		<population>534124</population>
+		<superficie>8763.2</superficie>
+		</dept>
+		<dept numero="25">
+		<nomDept>Doubs</nomDept>
+		<preferecture>Besançon</preferecture>
+		<population>543974</population>
+		<superficie>5232.6</superficie>
+		</dept>
+		<dept numero="39">
+		<nomDept>Jura</nomDept>
+		<preferecture>Lons-le-Saunier</preferecture>
+		<population>259199</population>
+		<superficie>4999.2</superficie>
+		</dept>
+		<dept numero="58">
+		<nomDept>Nièvre</nomDept>
+		<preferecture>Nevers</preferecture>
+		<population>204452</population>
+		<superficie>6816.7</superficie>
+		</dept>
+		<dept numero="70">
+		<nomDept>Haute-Saône</nomDept>
+		<preferecture>Vesoul</preferecture>
+		<population>235313</population>
+		<superficie>5360.1</superficie>
+		</dept>
+		<dept numero="71">
+		<nomDept>Saône-et-Loire</nomDept>
+		<preferecture>Mâcon</preferecture>
+		<population>551493</population>
+		<superficie>8574.7</superficie>
+		</dept>
+		<dept numero="89">
+		<nomDept>Yonne</nomDept>
+		<preferecture>Auxerre</preferecture>
+		<population>335707</population>
+		<superficie>7427.4</superficie>
+		</dept>
+		<dept numero="90">
+		<nomDept>Territoire de Belfort</nomDept>
+		<preferecture>Belfort</preferecture>
+		<population>141318</population>
+		<superficie>609.4</superficie>
+		</dept>
+	</region>
+	<region nom="Normandie">
+		<dept numero="14">
+		<nomDept>Calvados</nomDept>
+		<preferecture>Caen</preferecture>
+		<population>694905</population>
+		<superficie>5534.5</superficie>
+		</dept>
+		<dept numero="27">
+		<nomDept>Eure</nomDept>
+		<preferecture>Evreux</preferecture>
+		<population>599507</population>
+		<superficie>6039.9</superficie>
+		</dept>
+		<dept numero="50">
+		<nomDept>Manche</nomDept>
+		<preferecture>Saint-Lô</preferecture>
+		<population>495045</population>
+		<superficie>5951.5</superficie>
+		</dept>
+		<dept numero="61">
+		<nomDept>Orne</nomDept>
+		<preferecture>Alençon</preferecture>
+		<population>279942</population>
+		<superficie>6103.4</superficie>
+		</dept>
+		<dept numero="76">
+		<nomDept>Seine-Maritime</nomDept>
+		<preferecture>Rouen</preferecture>
+		<population>1255633</population>
+		<superficie>6277.6</superficie>
+		</dept>
+	</region>
+	<region nom="Auvergne-Rhône-Alpes">
+		<dept numero="1">
+		<nomDept>Ain</nomDept>
+		<preferecture>Bourg-en-Bresse</preferecture>
+		<population>652432</population>
+		<superficie>5762.4</superficie>
+		</dept>
+		<dept numero="3">
+		<nomDept>Allier</nomDept>
+		<preferecture>Moulins</preferecture>
+		<population>335975</population>
+		<superficie>7340.1</superficie>
+		</dept>
+		<dept numero="7">
+		<nomDept>Ardèche</nomDept>
+		<preferecture>Privas</preferecture>
+		<population>328278</population>
+		<superficie>5528.6</superficie>
+		</dept>
+		<dept numero="15">
+		<nomDept>Cantal</nomDept>
+		<preferecture>Aurillac</preferecture>
+		<population>144692</population>
+		<superficie>5726.0</superficie>
+		</dept>
+		<dept numero="26">
+		<nomDept>Drôme</nomDept>
+		<preferecture>Valence</preferecture>
+		<population>516762</population>
+		<superficie>6530.0</superficie>
+		</dept>
+		<dept numero="38">
+		<nomDept>Isère</nomDept>
+		<preferecture>Grenoble</preferecture>
+		<population>1271166</population>
+		<superficie>7431.5</superficie>
+		</dept>
+		<dept numero="42">
+		<nomDept>Loire</nomDept>
+		<preferecture>Saint-Etienne</preferecture>
+		<population>765634</population>
+		<superficie>4780.6</superficie>
+		</dept>
+		<dept numero="43">
+		<nomDept>Haute-Loire</nomDept>
+		<preferecture>Le Puy-en-Velay</preferecture>
+		<population>227570</population>
+		<superficie>4977.1</superficie>
+		</dept>
+		<dept numero="63">
+		<nomDept>Puy-de-Dôme</nomDept>
+		<preferecture>Clermont-Ferrand</preferecture>
+		<population>662152</population>
+		<superficie>7969.7</superficie>
+		</dept>
+		<dept numero="69">
+		<nomDept>Rhône</nomDept>
+		<preferecture>Lyon</preferecture>
+		<population>1875747</population>
+		<superficie>3249.1</superficie>
+		</dept>
+		<dept numero="73">
+		<nomDept>Savoie</nomDept>
+		<preferecture>Chambéry</preferecture>
+		<population>436434</population>
+		<superficie>6028.3</superficie>
+		</dept>
+		<dept numero="74">
+		<nomDept>Haute-Savoie</nomDept>
+		<preferecture>Annecy</preferecture>
+		<population>826094</population>
+		<superficie>4387.8</superficie>
+		</dept>
+	</region>
+	<region nom="Nouvelle-Aquitaine">
+		<dept numero="16">
+		<nomDept>Charente</nomDept>
+		<preferecture>Angoulème</preferecture>
+		<population>352015</population>
+		<superficie>5956.0</superficie>
+		</dept>
+		<dept numero="17">
+		<nomDept>Charente-Maritime</nomDept>
+		<preferecture>La Rochelle</preferecture>
+		<population>651358</population>
+		<superficie>6863.8</superficie>
+		</dept>
+		<dept numero="19">
+		<nomDept>Corrèze</nomDept>
+		<preferecture>Tulle</preferecture>
+		<population>240073</population>
+		<superficie>5856.8</superficie>
+		</dept>
+		<dept numero="23">
+		<nomDept>Creuse</nomDept>
+		<preferecture>Guéret</preferecture>
+		<population>116617</population>
+		<superficie>5565.4</superficie>
+		</dept>
+		<dept numero="24">
+		<nomDept>Dordogne</nomDept>
+		<preferecture>Périgueux</preferecture>
+		<population>413223</population>
+		<superficie>9060.0</superficie>
+		</dept>
+		<dept numero="33">
+		<nomDept>Gironde</nomDept>
+		<preferecture>Bordeaux</preferecture>
+		<population>1623749</population>
+		<superficie>9975.6</superficie>
+		</dept>
+		<dept numero="40">
+		<nomDept>Landes</nomDept>
+		<preferecture>Mont-de-Marsan</preferecture>
+		<population>413690</population>
+		<superficie>9242.6</superficie>
+		</dept>
+		<dept numero="47">
+		<nomDept>Lot-et-Garonne</nomDept>
+		<preferecture>Agen</preferecture>
+		<population>331271</population>
+		<superficie>5360.9</superficie>
+		</dept>
+		<dept numero="64">
+		<nomDept>Pyrénées-Atlantiques</nomDept>
+		<preferecture>Pau</preferecture>
+		<population>682621</population>
+		<superficie>7644.8</superficie>
+		</dept>
+		<dept numero="79">
+		<nomDept>Deux-Sèvres</nomDept>
+		<preferecture>Niort</preferecture>
+		<population>374878</population>
+		<superficie>5999.4</superficie>
+		</dept>
+		<dept numero="86">
+		<nomDept>Vienne</nomDept>
+		<preferecture>Poitiers</preferecture>
+		<population>438435</population>
+		<superficie>6990.4</superficie>
+		</dept>
+		<dept numero="87">
+		<nomDept>Haute-Vienne</nomDept>
+		<preferecture>Limoges</preferecture>
+		<population>372359</population>
+		<superficie>5520.1</superficie>
+		</dept>
+	</region>
+	<region nom="Occitanie">
+		<dept numero="9">
+		<nomDept>Ariège</nomDept>
+		<preferecture>Foix</preferecture>
+		<population>153287</population>
+		<superficie>4889.9</superficie>
+		</dept>
+		<dept numero="11">
+		<nomDept>Aude</nomDept>
+		<preferecture>Carcassonne</preferecture>
+		<population>374070</population>
+		<superficie>6139.0</superficie>
+		</dept>
+		<dept numero="12">
+		<nomDept>Aveyron</nomDept>
+		<preferecture>Rodez</preferecture>
+		<population>279595</population>
+		<superficie>8735.1</superficie>
+		</dept>
+		<dept numero="30">
+		<nomDept>Gard</nomDept>
+		<preferecture>Nîmes</preferecture>
+		<population>748437</population>
+		<superficie>5852.8</superficie>
+		</dept>
+		<dept numero="31">
+		<nomDept>Haute-Garonne</nomDept>
+		<preferecture>Toulouse</preferecture>
+		<population>1400039</population>
+		<superficie>6309.3</superficie>
+		</dept>
+		<dept numero="32">
+		<nomDept>Gers</nomDept>
+		<preferecture>Auch</preferecture>
+		<population>191377</population>
+		<superficie>6256.8</superficie>
+		</dept>
+		<dept numero="34">
+		<nomDept>Hérault</nomDept>
+		<preferecture>Montpellier</preferecture>
+		<population>1175623</population>
+		<superficie>6101.0</superficie>
+		</dept>
+		<dept numero="46">
+		<nomDept>Lot</nomDept>
+		<preferecture>Cahors</preferecture>
+		<population>174094</population>
+		<superficie>5216.5</superficie>
+		</dept>
+		<dept numero="48">
+		<nomDept>Lozère</nomDept>
+		<preferecture>Mende</preferecture>
+		<population>76604</population>
+		<superficie>5166.9</superficie>
+		</dept>
+		<dept numero="65">
+		<nomDept>Hautes-Pyrénées</nomDept>
+		<preferecture>Tarbes</preferecture>
+		<population>229567</population>
+		<superficie>4464.0</superficie>
+		</dept>
+		<dept numero="66">
+		<nomDept>Pyrénées-Orientales</nomDept>
+		<preferecture>Perpignan</preferecture>
+		<population>479979</population>
+		<superficie>4116.0</superficie>
+		</dept>
+		<dept numero="81">
+		<nomDept>Tarn</nomDept>
+		<preferecture>Albi</preferecture>
+		<population>389844</population>
+		<superficie>5757.9</superficie>
+		</dept>
+		<dept numero="82">
+		<nomDept>Tarn-et-Garonne</nomDept>
+		<preferecture>Montauban</preferecture>
+		<population>260669</population>
+		<superficie>3718.3</superficie>
+		</dept>
+	</region>
+	<region nom="Corse">
+		<dept numero="20">
+		<nomDept>Corse</nomDept>
+		<preferecture>Ajaccio</preferecture>
+		<population>340440</population>
+		<superficie>8679.8</superficie>
+		</dept>
+	</region>
+	<region nom="Ile-de-France">
+		<dept numero="75">
+		<nomDept>Paris</nomDept>
+		<preferecture>Paris</preferecture>
+		<population>2165423</population>
+		<superficie>105.4</superficie>
+		</dept>
+		<dept numero="77">
+		<nomDept>Seine-et-Marne</nomDept>
+		<preferecture>Melun</preferecture>
+		<population>1421197</population>
+		<superficie>5915.3</superficie>
+		</dept>
+		<dept numero="78">
+		<nomDept>Yvelines</nomDept>
+		<preferecture>Versailles</preferecture>
+		<population>1448207</population>
+		<superficie>2284.4</superficie>
+		</dept>
+		<dept numero="91">
+		<nomDept>Essonne</nomDept>
+		<preferecture>Evry-Courcouronnes</preferecture>
+		<population>1301659</population>
+		<superficie>1804.4</superficie>
+		</dept>
+		<dept numero="92">
+		<nomDept>Hauts-de-Seine</nomDept>
+		<preferecture>Nanterre</preferecture>
+		<population>1624357</population>
+		<superficie>175.6</superficie>
+		</dept>
+		<dept numero="93">
+		<nomDept>Seine-Saint-Denis</nomDept>
+		<preferecture>Bobigny</preferecture>
+		<population>1644903</population>
+		<superficie>236.2</superficie>
+		</dept>
+		<dept numero="94">
+		<nomDept>Val-de-Marne</nomDept>
+		<preferecture>Créteil</preferecture>
+		<population>1407124</population>
+		<superficie>245.0</superficie>
+		</dept>
+		<dept numero="95">
+		<nomDept>Val-d'Oise</nomDept>
+		<preferecture>Pontoise</preferecture>
+		<population>1249674</population>
+		<superficie>1245.9</superficie>
+		</dept>
+	</region>
+</liste>

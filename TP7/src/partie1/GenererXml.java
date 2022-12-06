@@ -34,7 +34,7 @@ public class GenererXml implements Controlable {
 
         try {
             File file = new File("./images/carte_de_france_degrade.png");
-            //System.out.println(file.getAbsolutePath());
+            //System.out.println(file.getAbsolutePath()); // Permet de récupérer le chemin absolu pour le new File
             bi = ImageIO.read(file);
         } catch (Exception e) {
         }
@@ -59,18 +59,18 @@ public class GenererXml implements Controlable {
                 scLigne = new Scanner(scFic.nextLine());
                 scLigne.useDelimiter("\t");
 
-                numDept  = Integer.parseInt(scLigne.next());
-                nomDept  = scLigne.next();
-                nomPref  = scLigne.next();
-                nomReg   = scLigne.next();
+                numDept = Integer.parseInt(scLigne.next());
+                nomDept = scLigne.next();
+                nomPref = scLigne.next();
+                nomReg = scLigne.next();
                 nbSuperf = Double.parseDouble(scLigne.next().replace(",", "."));
-                nbPop    = Integer.parseInt(scLigne.next());
+                nbPop = Integer.parseInt(scLigne.next());
 
                 Dept d = new Dept(numDept, nomDept, nomPref, nomReg, nbSuperf, nbPop);
                 alDept.add(d);
             }
 
-            Collections.sort( this.alDept, regionComparator );
+            Collections.sort(this.alDept, regionComparator);
 
             scFic.close();
 
@@ -78,6 +78,7 @@ public class GenererXml implements Controlable {
             exc.printStackTrace();
         }
     }
+
     public void ecrireXml() {
 
         /*      Remplissage de la HashMap     */
@@ -121,6 +122,7 @@ public class GenererXml implements Controlable {
             exc.printStackTrace();
         }
     }
+
     public void cliquer(int x, int y) {
         int couleur = bi.getRGB(x, y) & 0xFFFFFF;
 

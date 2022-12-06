@@ -11,7 +11,6 @@ import java.awt.geom.*;
 import java.awt.event.*;
 import java.awt.image.*;
 
-
 class PanelCarte extends JPanel implements ActionListener {
     private Controlable ctrl;
     private Graphics2D g2;
@@ -41,7 +40,6 @@ class PanelCarte extends JPanel implements ActionListener {
 
     }
 
-
     /*--------------------------------------------------*/
     /* Méthode permettant de redessinner entièrement    */
     /* le contenu de la fenêtre.                        */
@@ -51,15 +49,11 @@ class PanelCarte extends JPanel implements ActionListener {
         super.paintComponent(g);
 
         g2 = (Graphics2D) g;
-
         g2.drawImage(img, 0, 0, this);
-
-
     }
 
     public void actionPerformed(ActionEvent e) {
         this.ctrl.ecrireXml();
-
     }
 
 
